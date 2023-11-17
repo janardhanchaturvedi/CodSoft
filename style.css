@@ -1,15 +1,43 @@
+body{
+    color: rgb(0, 0, 0)e0e;
+}
 #CalculatorContainer{
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 2 px black solid;
+    margin-top: 7rem;
+    padding-left: 2em;
+    box-shadow: 25px grey;
+
+    
+    
     
 }
 .Button{
     text-decoration: none;
     background-color:rgb(100, 255, 255) ;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 3px;
     box-shadow: 2px solid grey;
+    size: 5px;
+    padding: 13px;
+    margin: 7px;
+
+}
+.Button text{
+    padding: 15px;
+}
+.textbutton{
+    padding: 9px;
+}
+.Calculator{
+    border: 2 px black solid;
+    background-color: #90EE90;
+    display: inline;
+    padding : 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
 
 }
