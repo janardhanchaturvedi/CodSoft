@@ -11,7 +11,7 @@
     <div id="CalculatorContainer">
         <form class="Calculator" name="formm">
             <div class="textbutton">
-            <input class="Button text" type="text" value="Enter the Number" name="Answer">
+            <input class="Button text" type="text"  name="Answer">
             </div>
             <br>
             <div>
@@ -37,7 +37,7 @@
             <br>
             <div>
             <input class="Button"  onclick="formm.Answer.value +='0'" type="button" value="0">
-            <input class="Button" onclick="formm.Answer.value= eval(formm.Answer.value)" type="button" value="=">
+            <input class="Button" onclick="formm.Answer.value = eval(formm.Answer.value)" type="button" value="=">
             <input type="button" value="Clear All" class="Button" onclick="formm.Answer.value =''">
             </div>
             <br>

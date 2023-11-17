@@ -25,11 +25,13 @@ body{
     margin: 7px;
 
 }
-.Button text{
+.Button,text{
     padding: 15px;
+    font-weight: 800;
 }
 .textbutton{
     padding: 9px;
+    font-weight: 600;
 }
 .Calculator{
     border: 2 px black solid;
